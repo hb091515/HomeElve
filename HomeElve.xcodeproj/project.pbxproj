@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C22D7EB97B9075EE7340461 /* Pods_HomeElve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B65788B0AC172CDAFF2B04 /* Pods_HomeElve.framework */; };
+		48258F6125DD4B50009A977D /* CalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48258F6025DD4B50009A977D /* CalendarTableViewController.swift */; };
+		4892758025DCE40F004E285C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892757F25DCE40F004E285C /* AppDelegate.swift */; };
+		4892758225DCE40F004E285C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892758125DCE40F004E285C /* SceneDelegate.swift */; };
+		4892758725DCE40F004E285C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4892758525DCE40F004E285C /* Main.storyboard */; };
+		4892758A25DCE40F004E285C /* HomeElve.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4892758825DCE40F004E285C /* HomeElve.xcdatamodeld */; };
+		4892758C25DCE413004E285C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4892758B25DCE413004E285C /* Assets.xcassets */; };
+		4892758F25DCE413004E285C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4892758D25DCE413004E285C /* LaunchScreen.storyboard */; };
+		4892759A25DCE413004E285C /* HomeElveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892759925DCE413004E285C /* HomeElveTests.swift */; };
+		489275A525DCE413004E285C /* HomeElveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489275A425DCE413004E285C /* HomeElveUITests.swift */; };
+		806302E2674C5772EB88E9F3 /* Pods_HomeElveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7D7D0E296C76F228D492FF /* Pods_HomeElveTests.framework */; };
+		EFA919DEFD7B92449839844D /* Pods_HomeElve_HomeElveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B18116888DB953794F2C95 /* Pods_HomeElve_HomeElveUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4892759625DCE413004E285C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4892757425DCE40F004E285C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4892757B25DCE40F004E285C;
+			remoteInfo = HomeElve;
+		};
+		489275A125DCE413004E285C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4892757425DCE40F004E285C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4892757B25DCE40F004E285C;
+			remoteInfo = HomeElve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23B18116888DB953794F2C95 /* Pods_HomeElve_HomeElveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeElve_HomeElveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48258F6025DD4B50009A977D /* CalendarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewController.swift; sourceTree = "<group>"; };
+		4892757C25DCE40F004E285C /* HomeElve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeElve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4892757F25DCE40F004E285C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4892758125DCE40F004E285C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4892758625DCE40F004E285C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4892758925DCE40F004E285C /* HomeElve.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeElve.xcdatamodel; sourceTree = "<group>"; };
+		4892758B25DCE413004E285C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4892758E25DCE413004E285C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4892759025DCE413004E285C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4892759525DCE413004E285C /* HomeElveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeElveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4892759925DCE413004E285C /* HomeElveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeElveTests.swift; sourceTree = "<group>"; };
+		4892759B25DCE413004E285C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489275A025DCE413004E285C /* HomeElveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeElveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		489275A425DCE413004E285C /* HomeElveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeElveUITests.swift; sourceTree = "<group>"; };
+		489275A625DCE413004E285C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7D7D0E296C76F228D492FF /* Pods_HomeElveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeElveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9AA281B14971B2753BDA02 /* Pods-HomeElve-HomeElveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeElve-HomeElveUITests.debug.xcconfig"; path = "Target Support Files/Pods-HomeElve-HomeElveUITests/Pods-HomeElve-HomeElveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91EE341938DF7FA9BF17E6DA /* Pods-HomeElve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeElve.debug.xcconfig"; path = "Target Support Files/Pods-HomeElve/Pods-HomeElve.debug.xcconfig"; sourceTree = "<group>"; };
+		B687E8E6ED17CC0791BF49EC /* Pods-HomeElve-HomeElveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeElve-HomeElveUITests.release.xcconfig"; path = "Target Support Files/Pods-HomeElve-HomeElveUITests/Pods-HomeElve-HomeElveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0311948D4052A50441DBF83 /* Pods-HomeElveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeElveTests.debug.xcconfig"; path = "Target Support Files/Pods-HomeElveTests/Pods-HomeElveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B65788B0AC172CDAFF2B04 /* Pods_HomeElve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeElve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37D83C528137457F15A3A72 /* Pods-HomeElveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeElveTests.release.xcconfig"; path = "Target Support Files/Pods-HomeElveTests/Pods-HomeElveTests.release.xcconfig"; sourceTree = "<group>"; };
+		F83979BCF8751182B4263E0E /* Pods-HomeElve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeElve.release.xcconfig"; path = "Target Support Files/Pods-HomeElve/Pods-HomeElve.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4892757925DCE40F004E285C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C22D7EB97B9075EE7340461 /* Pods_HomeElve.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4892759225DCE413004E285C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806302E2674C5772EB88E9F3 /* Pods_HomeElveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4892759D25DCE413004E285C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA919DEFD7B92449839844D /* Pods_HomeElve_HomeElveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BFF8FE114EED73AA032310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91EE341938DF7FA9BF17E6DA /* Pods-HomeElve.debug.xcconfig */,
+				F83979BCF8751182B4263E0E /* Pods-HomeElve.release.xcconfig */,
+				6B9AA281B14971B2753BDA02 /* Pods-HomeElve-HomeElveUITests.debug.xcconfig */,
+				B687E8E6ED17CC0791BF49EC /* Pods-HomeElve-HomeElveUITests.release.xcconfig */,
+				C0311948D4052A50441DBF83 /* Pods-HomeElveTests.debug.xcconfig */,
+				E37D83C528137457F15A3A72 /* Pods-HomeElveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		487D308025DD39560075A5A3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4892758525DCE40F004E285C /* Main.storyboard */,
+				4892758D25DCE413004E285C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		487D308125DD396D0075A5A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		487D308325DD397A0075A5A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		487D308425DD39810075A5A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48258F6025DD4B50009A977D /* CalendarTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4892757325DCE40F004E285C = {
+			isa = PBXGroup;
+			children = (
+				4892757E25DCE40F004E285C /* HomeElve */,
+				4892759825DCE413004E285C /* HomeElveTests */,
+				489275A325DCE413004E285C /* HomeElveUITests */,
+				4892757D25DCE40F004E285C /* Products */,
+				26BFF8FE114EED73AA032310 /* Pods */,
+				8956C1338A03CBD121680ECE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4892757D25DCE40F004E285C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4892757C25DCE40F004E285C /* HomeElve.app */,
+				4892759525DCE413004E285C /* HomeElveTests.xctest */,
+				489275A025DCE413004E285C /* HomeElveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4892757E25DCE40F004E285C /* HomeElve */ = {
+			isa = PBXGroup;
+			children = (
+				487D308425DD39810075A5A3 /* Controller */,
+				487D308325DD397A0075A5A3 /* View */,
+				487D308125DD396D0075A5A3 /* Model */,
+				487D308025DD39560075A5A3 /* Storyboard */,
+				4892757F25DCE40F004E285C /* AppDelegate.swift */,
+				4892758125DCE40F004E285C /* SceneDelegate.swift */,
+				4892758B25DCE413004E285C /* Assets.xcassets */,
+				4892759025DCE413004E285C /* Info.plist */,
+				4892758825DCE40F004E285C /* HomeElve.xcdatamodeld */,
+			);
+			path = HomeElve;
+			sourceTree = "<group>";
+		};
+		4892759825DCE413004E285C /* HomeElveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4892759925DCE413004E285C /* HomeElveTests.swift */,
+				4892759B25DCE413004E285C /* Info.plist */,
+			);
+			path = HomeElveTests;
+			sourceTree = "<group>";
+		};
+		489275A325DCE413004E285C /* HomeElveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				489275A425DCE413004E285C /* HomeElveUITests.swift */,
+				489275A625DCE413004E285C /* Info.plist */,
+			);
+			path = HomeElveUITests;
+			sourceTree = "<group>";
+		};
+		8956C1338A03CBD121680ECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1B65788B0AC172CDAFF2B04 /* Pods_HomeElve.framework */,
+				23B18116888DB953794F2C95 /* Pods_HomeElve_HomeElveUITests.framework */,
+				5B7D7D0E296C76F228D492FF /* Pods_HomeElveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4892757B25DCE40F004E285C /* HomeElve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489275A925DCE413004E285C /* Build configuration list for PBXNativeTarget "HomeElve" */;
+			buildPhases = (
+				3588DC2F862931459AB29297 /* [CP] Check Pods Manifest.lock */,
+				4892757825DCE40F004E285C /* Sources */,
+				4892757925DCE40F004E285C /* Frameworks */,
+				4892757A25DCE40F004E285C /* Resources */,
+				85FF2BBB532BC73A379A1947 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeElve;
+			productName = HomeElve;
+			productReference = 4892757C25DCE40F004E285C /* HomeElve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4892759425DCE413004E285C /* HomeElveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489275AC25DCE413004E285C /* Build configuration list for PBXNativeTarget "HomeElveTests" */;
+			buildPhases = (
+				38B3760558B838D604855158 /* [CP] Check Pods Manifest.lock */,
+				4892759125DCE413004E285C /* Sources */,
+				4892759225DCE413004E285C /* Frameworks */,
+				4892759325DCE413004E285C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4892759725DCE413004E285C /* PBXTargetDependency */,
+			);
+			name = HomeElveTests;
+			productName = HomeElveTests;
+			productReference = 4892759525DCE413004E285C /* HomeElveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4892759F25DCE413004E285C /* HomeElveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489275AF25DCE413004E285C /* Build configuration list for PBXNativeTarget "HomeElveUITests" */;
+			buildPhases = (
+				BF4D5EEEEAA969A92C1A2552 /* [CP] Check Pods Manifest.lock */,
+				4892759C25DCE413004E285C /* Sources */,
+				4892759D25DCE413004E285C /* Frameworks */,
+				4892759E25DCE413004E285C /* Resources */,
+				02F228048FBCDE98419C761B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489275A225DCE413004E285C /* PBXTargetDependency */,
+			);
+			name = HomeElveUITests;
+			productName = HomeElveUITests;
+			productReference = 489275A025DCE413004E285C /* HomeElveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4892757425DCE40F004E285C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4892757B25DCE40F004E285C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4892759425DCE413004E285C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4892757B25DCE40F004E285C;
+					};
+					4892759F25DCE413004E285C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4892757B25DCE40F004E285C;
+					};
+				};
+			};
+			buildConfigurationList = 4892757725DCE40F004E285C /* Build configuration list for PBXProject "HomeElve" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4892757325DCE40F004E285C;
+			productRefGroup = 4892757D25DCE40F004E285C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4892757B25DCE40F004E285C /* HomeElve */,
+				4892759425DCE413004E285C /* HomeElveTests */,
+				4892759F25DCE413004E285C /* HomeElveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4892757A25DCE40F004E285C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4892758F25DCE413004E285C /* LaunchScreen.storyboard in Resources */,
+				4892758C25DCE413004E285C /* Assets.xcassets in Resources */,
+				4892758725DCE40F004E285C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4892759325DCE413004E285C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4892759E25DCE413004E285C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02F228048FBCDE98419C761B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeElve-HomeElveUITests/Pods-HomeElve-HomeElveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeElve-HomeElveUITests/Pods-HomeElve-HomeElveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeElve-HomeElveUITests/Pods-HomeElve-HomeElveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3588DC2F862931459AB29297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeElve-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B3760558B838D604855158 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeElveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FF2BBB532BC73A379A1947 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeElve/Pods-HomeElve-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeElve/Pods-HomeElve-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeElve/Pods-HomeElve-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4D5EEEEAA969A92C1A2552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeElve-HomeElveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4892757825DCE40F004E285C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48258F6125DD4B50009A977D /* CalendarTableViewController.swift in Sources */,
+				4892758025DCE40F004E285C /* AppDelegate.swift in Sources */,
+				4892758A25DCE40F004E285C /* HomeElve.xcdatamodeld in Sources */,
+				4892758225DCE40F004E285C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4892759125DCE413004E285C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4892759A25DCE413004E285C /* HomeElveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4892759C25DCE413004E285C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489275A525DCE413004E285C /* HomeElveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4892759725DCE413004E285C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4892757B25DCE40F004E285C /* HomeElve */;
+			targetProxy = 4892759625DCE413004E285C /* PBXContainerItemProxy */;
+		};
+		489275A225DCE413004E285C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4892757B25DCE40F004E285C /* HomeElve */;
+			targetProxy = 489275A125DCE413004E285C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4892758525DCE40F004E285C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4892758625DCE40F004E285C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4892758D25DCE413004E285C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4892758E25DCE413004E285C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		489275A725DCE413004E285C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		489275A825DCE413004E285C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489275AA25DCE413004E285C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91EE341938DF7FA9BF17E6DA /* Pods-HomeElve.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X6S462S4Q;
+				INFOPLIST_FILE = HomeElve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeElve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		489275AB25DCE413004E285C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83979BCF8751182B4263E0E /* Pods-HomeElve.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X6S462S4Q;
+				INFOPLIST_FILE = HomeElve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeElve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		489275AD25DCE413004E285C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0311948D4052A50441DBF83 /* Pods-HomeElveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X6S462S4Q;
+				INFOPLIST_FILE = HomeElveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeElveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeElve.app/HomeElve";
+			};
+			name = Debug;
+		};
+		489275AE25DCE413004E285C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37D83C528137457F15A3A72 /* Pods-HomeElveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X6S462S4Q;
+				INFOPLIST_FILE = HomeElveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeElveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeElve.app/HomeElve";
+			};
+			name = Release;
+		};
+		489275B025DCE413004E285C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9AA281B14971B2753BDA02 /* Pods-HomeElve-HomeElveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X6S462S4Q;
+				INFOPLIST_FILE = HomeElveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeElveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeElve;
+			};
+			name = Debug;
+		};
+		489275B125DCE413004E285C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B687E8E6ED17CC0791BF49EC /* Pods-HomeElve-HomeElveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X6S462S4Q;
+				INFOPLIST_FILE = HomeElveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeElveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeElve;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4892757725DCE40F004E285C /* Build configuration list for PBXProject "HomeElve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489275A725DCE413004E285C /* Debug */,
+				489275A825DCE413004E285C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489275A925DCE413004E285C /* Build configuration list for PBXNativeTarget "HomeElve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489275AA25DCE413004E285C /* Debug */,
+				489275AB25DCE413004E285C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489275AC25DCE413004E285C /* Build configuration list for PBXNativeTarget "HomeElveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489275AD25DCE413004E285C /* Debug */,
+				489275AE25DCE413004E285C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489275AF25DCE413004E285C /* Build configuration list for PBXNativeTarget "HomeElveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489275B025DCE413004E285C /* Debug */,
+				489275B125DCE413004E285C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4892758825DCE40F004E285C /* HomeElve.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4892758925DCE40F004E285C /* HomeElve.xcdatamodel */,
+			);
+			currentVersion = 4892758925DCE40F004E285C /* HomeElve.xcdatamodel */;
+			path = HomeElve.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4892757425DCE40F004E285C /* Project object */;
+}
